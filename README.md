@@ -1,6 +1,6 @@
-# PE Assignment Express Project
+# From Git to Kubernetes
 ## What is the use of this Repo
-This Project is a Simple Express Project
+This project contains a simple Express application with health checks ready for kubernetes deployment using Artifactory Cloud.
 The project Template can be used to build bigger projects
 
 ## Prerequisites
