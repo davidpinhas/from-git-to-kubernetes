@@ -1,7 +1,7 @@
 # From Git to Kubernetes
 ## What is the use of this Repo
 This project contains a simple Express application with health checks ready for kubernetes deployment using Artifactory Cloud.
-The project Template can be used to build bigger projects
+The project Template can be used to build bigger projects.
 
 ## Prerequisites
 
