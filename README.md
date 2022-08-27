@@ -14,7 +14,7 @@ Refer to https://nodejs.org/en/ to install nodejs
 3. Start the application
 
 ```
-git clone https://github.com/davidpinhas/simple-express-app.git
+git clone https://github.com/davidpinhas/from-git-to-kubernetes.git
 npm install
 node server.js
 ```
@@ -23,8 +23,8 @@ node server.js
 Clone the repository and build the Docker image:
 
 ```
-git clone https://github.com/davidpinhas/simple-express-app.git
-cd simple-express-app/
+git clone https://github.com/davidpinhas/from-git-to-kubernetes.git
+cd from-git-to-kubernetes/
 docker build . -t <ARTIFACTORY_SERVER_NAME>.jfrog.io/docker/pe-node-web-app
 docker run -p 8080:8080 -d <ARTIFACTORY_SERVER_NAME>.jfrog.io/docker/pe-node-web-app
 ```
